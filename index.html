@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메가메뉴 예제</title>
+    <link rel="stylesheet" href="mega-menu.css">
+</head>
+<body>
+    <nav class="gnb_menu_box" role="navigation" aria-label="메인 메뉴">
+        <ul class="depth0 gnb_menu0">
+            <li>
+                <a href="../goods/goods_list.php?cateCd=001">1.플라워 디스플레이</a>
+                <ul class="depth1">
+                    <li data-cate="001001">
+                        <a href="../goods/goods_list.php?cateCd=001001">조화 꽃</a>
+                        <ul class="depth2">
+                            <li data-cate="001001001">
+                                <a href="../goods/goods_list.php?cateCd=001001001">카네이션</a>
+                            </li>
+                            <li data-cate="001001002">
+                                <a href="../goods/goods_list.php?cateCd=001001002">매화, 벚꽃, 블러썸</a>
+                            </li>
+                            <!-- 추가 카테고리 항목들... -->
+                        </ul>
+                    </li>
+                    <!-- 추가 중분류 항목들... -->
+                </ul>
+            </li>
+            <!-- 추가 대분류 항목들... -->
+        </ul>
+    </nav>
+
+    <script src="mega-menu.js"></script>
+</body>
+</html> 

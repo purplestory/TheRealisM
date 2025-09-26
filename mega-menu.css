@@ -1,0 +1,208 @@
+.gnb_menu_box {
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+
+.depth0 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.depth0 > li {
+    position: relative;
+    padding: 15px 20px;
+}
+
+.depth0 > li > a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: none;
+    padding: 20px;
+}
+
+.depth1 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.depth1 > li {
+    width: 200px;
+    margin: 10px;
+}
+
+.depth1 > li > a {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    padding: 5px 0;
+}
+
+.depth2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.depth2 > li {
+    margin: 5px 0;
+}
+
+.depth2 > li > a {
+    color: #999;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    padding: 3px 0;
+}
+
+.depth2 > li > a:hover {
+    color: #333;
+}
+
+/* 호버 효과 */
+.depth0 > li:hover > a {
+    color: #007bff;
+}
+
+.depth1 > li:hover > a {
+    color: #007bff;
+}
+
+/* 검색창 스타일 */
+.category-search {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.category-search input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 최근 본 카테고리 스타일 */
+.recent-categories {
+    margin: 10px 0;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+.recent-categories h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.recent-categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-categories li {
+    margin: 5px 0;
+}
+
+.recent-categories a {
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.recent-categories a:hover {
+    color: #007bff;
+}
+
+/* 중분류가 없는 소분류 스타일 */
+.mega-menu .depth2.no-medium {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mega-menu .depth2.no-medium .depth3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mega-menu .depth2.no-medium .depth3 li {
+  margin-top: 8px;
+}
+
+.mega-menu .depth2.no-medium .depth3 li:first-child {
+  margin-top: 0;
+}
+
+.mega-menu .depth2.no-medium .depth3 li a {
+  display: block;
+  padding: 3px 0;
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.mega-menu .depth2.no-medium .depth3 li a:hover {
+  color: #333;
+}
+
+/* 중분류가 있는 칼럼의 소분류 스타일 */
+.mega-menu .depth3 h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mega-menu .depth3 h3 a {
+  color: #666;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.mega-menu .depth4 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mega-menu .depth4 li {
+  margin-top: 8px;
+}
+
+.mega-menu .depth4 li:first-child {
+  margin-top: 0;
+}
+
+.mega-menu .depth4 li a {
+  display: block;
+  padding: 3px 0;
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.mega-menu .depth4 li a:hover {
+  color: #333;
+} 
