@@ -50,3 +50,6 @@ Thumbs.db
 .venv
 env/
 venv/
+
+# Config files with sensitive data
+config.json
